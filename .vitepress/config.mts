@@ -3,13 +3,13 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "NXPlugins",
   description: "Naxito's Studios Official Documentation",
-  base: '/nxplugins-docs/',
+  base: '/plugins/',
   cleanUrls: true,
   lastUpdated: false,
 
   themeConfig: {
     // Top bar logo (place your logo at .vitepress/public/logo.png)
-    logo: '/nxplugins-docs/logo.png',
+    logo: '/logo.png',
     siteTitle: 'NXPlugins',
 
     // Built-in search

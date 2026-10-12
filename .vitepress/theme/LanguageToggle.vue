@@ -2,17 +2,21 @@
 import { useData, useRoute } from 'vitepress'
 import { computed } from 'vue'
 
+const { site } = useData()
 const route = useRoute()
 
-const isSpanish = computed(() => route.path.startsWith('/nxplugins-docs/es/') || route.path.startsWith('/es/'))
+const isSpanish = computed(() => {
+  const base = site.value.base || '/'
+  return route.path.startsWith(`${base}es/`) || route.path.startsWith('/es/')
+})
 
 const targetPath = computed(() => {
   const path = route.path
+  const base = site.value.base || '/'
   if (isSpanish.value) {
     return path.replace('/es/', '/').replace(/\/es$/, '/')
   }
   // Insert /es after the base
-  const base = '/nxplugins-docs/'
   if (path.startsWith(base)) {
     return base + 'es/' + path.slice(base.length)
   }

@@ -1,5 +1,5 @@
 {
-  "name": "nxplugins-docs",
+  "name": "plugins",
   "version": "1.0.0",
   "description": "Documentación oficial de plugins de Naxito's Studios",
   "main": "index.js",
