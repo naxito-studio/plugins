@@ -50,6 +50,20 @@ Welcome to the official documentation of **Naxito's Studios**. Here you'll find 
 
 </details>
 
+<details>
+<summary><b>NXGens — Generators & Chunk Collectors</b></summary>
+
+<br>
+
+![NXGens Logo](.vitepress/public/nxgens.png)
+
+**NXGens** is a generators and Chunk Collectors plugin for economy-style servers: buy tiered generators, farm drops into collectors and sell them with rank multipliers and auto-sell.
+
+- **Features:** Tiered generators, virtual Chunk Collectors with upgrades, sellwands, random events, corrupted generators and a visual in-game editor.
+- [View full NXGens documentation](NXGens/README.md)
+
+</details>
+
 ---
 
 ## Community & Support

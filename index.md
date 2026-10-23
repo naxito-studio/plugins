@@ -20,7 +20,7 @@ hero:
       link: /NXRooms/README
     - theme: brand
       text: View NXGens
-      link: /es/NXGens/README
+      link: /NXGens/README
     - theme: alt
       text: Join the Discord
       link: https://discord.gg/Xex24yPpWn
@@ -54,8 +54,8 @@ features:
       src: /nxgens.png
       alt: NXGens
     title: NXGens
-    details: Tiered generators and virtual Chunk Collectors with auto-sell, sellwands, rank multipliers and an in-game generator editor. (Guide in Spanish)
-    link: /es/NXGens/README
+    details: Tiered generators and virtual Chunk Collectors with auto-sell, sellwands, rank multipliers and an in-game generator editor.
+    link: /NXGens/README
     linkText: Explore the guide
 
   - icon:
