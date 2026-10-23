@@ -18,6 +18,9 @@ hero:
     - theme: brand
       text: Ver NXRooms
       link: /es/NXRooms/README
+    - theme: brand
+      text: Ver NXGens
+      link: /es/NXGens/README
     - theme: alt
       text: Unirse al Discord
       link: https://discord.gg/Xex24yPpWn
@@ -45,6 +48,14 @@ features:
     title: NXRooms
     details: Plugin de salas PvP competitivas con sistema de creación por varita para arenas 1v1, 2v2 y 3v3.
     link: /es/NXRooms/README
+    linkText: Explorar guía
+
+  - icon:
+      src: /nxgens.png
+      alt: NXGens
+    title: NXGens
+    details: Plugin de generadores por tier y Chunk Collectors con auto-venta, sellwands, multiplicadores por rango y editor visual de generadores.
+    link: /es/NXGens/README
     linkText: Explorar guía
 
   - icon:
