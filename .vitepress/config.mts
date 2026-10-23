@@ -23,6 +23,7 @@ export default defineConfig({
       { text: 'NXGuard', link: '/NXGuard/README' },
       { text: 'NXMines', link: '/NXMines/README' },
       { text: 'NXRooms', link: '/NXRooms/README' },
+      { text: 'NXGens', link: '/NXGens/README' },
       { text: 'Discord', link: 'https://discord.gg/Xex24yPpWn' }
     ],
 
@@ -104,6 +105,29 @@ export default defineConfig({
         }
       ],
 
+      '/NXGens/': [
+        {
+          text: 'NXGens',
+          items: [
+            { text: 'Introduction', link: '/NXGens/README' },
+            { text: 'Installation', link: '/NXGens/instalacion' },
+            { text: 'Commands', link: '/NXGens/comandos' },
+            { text: 'Permissions', link: '/NXGens/permisos' },
+            { text: 'Generator System', link: '/NXGens/generadores' },
+            { text: 'GUI Usage', link: '/NXGens/gui' },
+            { text: 'Events & Failures', link: '/NXGens/eventos' },
+            { text: 'PlaceholderAPI', link: '/NXGens/placeholders' },
+            { text: 'FAQ', link: '/NXGens/faq' }
+          ]
+        },
+        {
+          text: 'Configuration',
+          items: [
+            { text: 'config.yml', link: '/NXGens/configuracion/config-yml' }
+          ]
+        }
+      ],
+
       '/es/NXGuard/': [
         {
           text: 'NXGuard',
@@ -170,6 +194,29 @@ export default defineConfig({
           text: 'Configuración',
           items: [
             { text: 'config.yml', link: '/es/NXRooms/configuracion/config-yml' }
+          ]
+        }
+      ],
+
+      '/es/NXGens/': [
+        {
+          text: 'NXGens',
+          items: [
+            { text: 'Introducción', link: '/es/NXGens/README' },
+            { text: 'Instalación', link: '/es/NXGens/instalacion' },
+            { text: 'Comandos', link: '/es/NXGens/comandos' },
+            { text: 'Permisos', link: '/es/NXGens/permisos' },
+            { text: 'Sistema de generadores', link: '/es/NXGens/generadores' },
+            { text: 'Uso del GUI', link: '/es/NXGens/gui' },
+            { text: 'Eventos y fallas', link: '/es/NXGens/eventos' },
+            { text: 'PlaceholderAPI', link: '/es/NXGens/placeholders' },
+            { text: 'Preguntas Frecuentes', link: '/es/NXGens/faq' }
+          ]
+        },
+        {
+          text: 'Configuración',
+          items: [
+            { text: 'config.yml', link: '/es/NXGens/configuracion/config-yml' }
           ]
         }
       ]
