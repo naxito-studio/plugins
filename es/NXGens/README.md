@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="../../.vitepress/public/nxgens.png" alt="NXGens Logo" width="200"/>
+  <img src="/nxgens.png" alt="NXGens Logo" width="200"/>
 
 </div>
 
